@@ -1,0 +1,56 @@
+format = """
+[]()\
+$username\
+$os\
+$directory
+$character
+"""
+
+[directory]
+style = "#dddddd"
+format = "[  < $path >]($style)"
+
+[username]
+disabled = false
+show_always = true
+style_user = "#DDDDDD"
+style_root = "#DDDDDD"
+format = "[< $user]($style)"
+
+[os]
+disabled = false
+style = "#DDDDDD"
+
+[os.symbols]
+Arch = " ArchLinux > "
+Debian = " Debian > "
+Ubuntu = " Ubuntu > "
+Artix = " Artix > "
+NixOS = " NixOS > "
+FreeBSD = " FreeBSD > "
+EndeavourOS = " EndeavourOS > "
+SUSE = " OpenSUSE > "
+Macos = " MacOS > "
+Windows = " Windows > "
+Mint = " LinuxMint > "
+Fedora = " Fedora > "
+Gentoo = " Gentoo > "
+Manjaro = " Manjaro > "
+Alpine = " Alpine > "
+Pop = " PopOS > "
+CentOS = " CentOS > "
+Redhat = " RedHat > "
+RedHatEnterprise = " RedHat > "
+OpenBSD = " OpenBSD > "
+Void = " VoidLinux > "
+MidnightBSD = " MidnightBSD > "
+Android = " Android > "
+Kali = " KaliLinux > "
+Garuda = " Garuda > "
+Raspbian = " Raspbian > "
+HardenedBSD = " HardendBSD > "
+
+[character]
+success_symbol = "[>](fg:#DDDDDD)"
+error_symbol = "[>](fg:#FF0000)"
+vimcmd_symbol = "[>](fg:#00FF00)"
