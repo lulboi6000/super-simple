@@ -16,19 +16,19 @@ disabled = false
 format = "[$all_status$ahead_behind >]()"
 
 [directory]
-style = "#DDDDDD"
+style = "#FFFFFF"
 format = "[  < $path >]($style)"
 
 [username]
 disabled = false
 show_always = true
-style_user = "#DDDDDD"
-style_root = "#DDDDDD"
+style_user = "#FFFFFF"
+style_root = "#FFFFFF"
 format = "[< $user]($style)"
 
 [os]
 disabled = false
-style = "#DDDDDD"
+style = "#FFFFFF"
 
 [os.symbols]
 Arch = " ArchLinux > "
@@ -60,6 +60,6 @@ Raspbian = " Raspbian > "
 HardenedBSD = " HardendBSD > "
 
 [character]
-success_symbol = "[>](fg:#DDDDDD)"
+success_symbol = "[>](fg:#FFFFFF)"
 error_symbol = "[>](fg:#FF0000)"
 vimcmd_symbol = "[>](fg:#00FF00)"
